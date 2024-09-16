@@ -60,12 +60,6 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Networking"):WaitForChild("CodesEvent"):FireServer(unpack(args))
 
 local args = {
-    [1] = "AV50MIL"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Networking"):WaitForChild("CodesEvent"):FireServer(unpack(args))
-
-local args = {
     [1] = "AV500KLIKES"
 }
 
@@ -106,13 +100,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Networking"):WaitForChild("CodesEvent"):FireServer(unpack(args))
-
-local args = {
-    [1] = "AV500KLIKES"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Networking"):WaitForChild("CodesEvent"):FireServer(unpack(args))
-end)
 
 
 local Tab = Window:NewTab("Other")
